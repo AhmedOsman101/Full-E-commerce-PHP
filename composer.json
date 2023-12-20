@@ -2,7 +2,7 @@
     "name": "othman/e-commerce",
     "autoload": {
         "psr-4": {
-            "Othman\\ECommerce\\": "src/"
+            "Othman\\ECommerce\\": "/"
         }
     },
     "authors": [
