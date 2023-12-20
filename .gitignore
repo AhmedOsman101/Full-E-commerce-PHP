@@ -1,6 +1,44 @@
+# .gitignore
+
+# Ignore Composer related files
 composer.phar
 /vendor/
+/composer.lock
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# Ignore system files
+*.bak
+*.cache
+*.DS_Store
+*.idea
+*.log
+*.sass-cache
+*.sublime*
+*.swp
+*.tmp
+*~
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.example
+
+# Ignore PHPStorm project files
+.idea/
+
+# Ignore node modules
+node_modules/
+
+# Ignore public storage
+/public/storage
+
+# Ignore phpunit output
+/test/report
+/.phpunit.result.cache
+
+# Ignore user-specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

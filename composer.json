@@ -1,0 +1,15 @@
+{
+    "name": "othman/e-commerce",
+    "autoload": {
+        "psr-4": {
+            "Othman\\ECommerce\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AhmadOthman",
+            "email": "trollingosman101@outlook.com"
+        }
+    ],
+    "require": {}
+}
